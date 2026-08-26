@@ -1,4 +1,4 @@
-name: CI - Pruebas unitarias
+name: CI - Pruebas Unitarias
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Descargar código del repositorio
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Configurar JDK 17 (Temurin)
         uses: actions/setup-java@v4
@@ -20,14 +20,14 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
           cache: 'maven'
-      
-      - name: Compliar y ejecuitar pruebas
+
+      - name: Compilar y ejecutar pruebas
         run: mvn -B test
-      
+
       - name: Publicar reporte de pruebas
         uses: dorny/test-reporter@v1
         if: success() || failure()
         with:
-          name: Reporte de pruebas JUnit
+          name: Reporte de Pruebas JUnit
           path: 'target/surefire-reports/*.xml'
           reporter: java-junit
