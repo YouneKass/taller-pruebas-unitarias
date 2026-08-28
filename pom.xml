@@ -17,6 +17,7 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <junit.jupiter.version>5.10.2</junit.jupiter.version>
+    <cucumber.version>7.18.1</cucumber.version>
   </properties>
 
   <dependencies>
@@ -24,6 +25,30 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Cucumber: motor de ejecucion de escenarios Gherkin -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>${cucumber.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Cucumber: integracion con JUnit Platform (para correr con Surefire) -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit-platform-engine</artifactId>
+      <version>${cucumber.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JUnit Platform Suite: permite definir una clase Runner con @Suite -->
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-suite</artifactId>
+      <version>1.10.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
