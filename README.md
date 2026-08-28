@@ -63,6 +63,40 @@ siguiendo el patrón Arrange-Act-Assert:
 
 Cada prueba verifica un único comportamiento y no depende del resultado de otra prueba.
 
+## Pruebas BDD con Cucumber (Gherkin)
+
+Como parte de la Actividad 2, se incorporó una nueva funcionalidad (división) desarrollada
+bajo un enfoque BDD (Behavior Driven Development), partiendo de una sesión simulada
+**Three Amigos** (Negocio, Desarrollo y QA) documentada en [`docs/three-amigos-session.md`](docs/three-amigos-session.md).
+
+De esa sesión se identificaron 3 escenarios clave, incluyendo un caso borde (división por cero),
+que se implementaron como pruebas Gherkin ejecutadas con Cucumber:
+
+- **Camino feliz:** división exacta entre dos números.
+- **Resultado decimal:** división parametrizada (Scenario Outline) con distintos pares de valores.
+- **Caso borde:** división por cero, que debe lanzar una excepción controlada (`ArithmeticException`).
+
+### Estructura BDD
+
+src/test/
+├── java/cl/iplacex/automatizacion/
+│ ├── RunCucumberTest.java # Runner que conecta JUnit Platform con Cucumber
+│ └── steps/
+│ └── DivisionStepDefinitions.java # Step definitions (Dado/Cuando/Entonces)
+└── resources/features/
+└── division.feature # Escenarios Gherkin en español
+
+
+Al usar `cucumber-junit-platform-engine`, los escenarios Gherkin corren sobre el mismo motor
+que los tests JUnit tradicionales, por lo que se ejecutan automáticamente con `mvn test`
+—tanto en local como en el pipeline de CI— sin necesidad de configuración adicional en `ci.yml`.
+
+### Ejecutar solo las pruebas BDD
+
+```bash
+mvn test -Dtest=RunCucumberTest
+```
+
 ## Flujo de trabajo con Git
 
 El proyecto sigue un flujo de ramas + Pull Request + merge:
@@ -137,4 +171,6 @@ target/
 - [x] Pipeline de GitHub Actions configurado (`ci.yml`).
 - [x] Confirmación de ejecución exitosa del pipeline en GitHub Actions (run #4, 20s — ver evidencia abajo).
 - [x] Reporte navegable de CI enlazado en este README (resumen "tests 2 passed" generado por dorny/test-reporter).
-
+- [x] Sesión Three Amigos simulada y documentada.
+- [x] Escenarios BDD/Gherkin implementados con Cucumber (incluyendo caso borde de división por cero).
+- [x] Pipeline de CI valida automáticamente las pruebas BDD junto con las unitarias.
