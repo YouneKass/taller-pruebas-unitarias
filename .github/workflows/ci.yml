@@ -31,3 +31,11 @@ jobs:
           name: Reporte de Pruebas JUnit
           path: 'target/surefire-reports/*.xml'
           reporter: java-junit
+
+      - name: Publicar reporte navegable de Cucumber (BDD)
+        uses: actions/upload-artifact@v4
+        if: success() || failure()
+        with:
+          name: reporte-cucumber-bdd
+          path: target/cucumber-reports/
+          retention-days: 30
