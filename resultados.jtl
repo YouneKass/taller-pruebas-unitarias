@@ -1,0 +1,801 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1787954516986,60,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,56,0,19
+1787954517049,3,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,3,0,0
+1787954517053,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,0
+1787954517057,3,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,3,0,0
+1787954517060,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,0
+1787954517063,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517065,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517068,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517069,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517071,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517074,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517075,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517076,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517078,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517080,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517081,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517083,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517084,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517086,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517088,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517089,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517091,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517092,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517093,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517095,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517096,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517098,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517100,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517101,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517103,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517104,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517105,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517107,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517108,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517109,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517111,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517112,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517114,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517115,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-1,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517116,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-1,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517163,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517166,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517167,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517169,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517171,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517173,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517174,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517176,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517177,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517179,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517180,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517182,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517184,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517185,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517187,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517188,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517190,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517191,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517192,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517193,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517195,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517196,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517197,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517199,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517202,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517203,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517205,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517206,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517207,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517208,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517209,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517210,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517212,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517213,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517214,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517215,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517217,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517218,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517219,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-2,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517220,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-2,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517412,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,1
+1787954517416,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517417,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517419,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517421,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517423,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517425,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517427,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517429,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517430,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517431,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517433,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517434,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517435,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517437,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517438,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517439,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517441,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517442,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517443,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517444,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517445,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517446,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517447,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517448,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517449,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517450,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517451,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517452,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517453,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517454,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517456,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517457,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517458,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517459,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517461,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954517462,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517463,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517464,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-3,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954517465,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-3,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517662,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,0
+1787954517665,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517667,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517669,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517671,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517673,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517674,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517675,3,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,3,0,0
+1787954517678,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517680,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517682,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517683,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517684,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517685,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517686,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517688,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517689,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517690,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517691,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517692,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954517693,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954517693,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517695,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954517696,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954517697,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954517698,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517699,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517700,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517701,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517702,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517703,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517704,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517705,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517706,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517708,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954517709,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954517710,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517711,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517712,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-4,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517713,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-4,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517910,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,1
+1787954517913,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517915,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517916,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517918,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517919,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517920,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517921,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517922,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517924,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517925,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517926,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517927,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954517929,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517930,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517931,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517932,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517933,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517934,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517935,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517936,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517938,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954517939,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517940,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517941,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954517942,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954517942,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517943,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517944,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517945,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517946,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517947,3,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954517950,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517951,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517953,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954517954,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517955,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517956,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954517957,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-5,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954517958,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-5,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518161,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954518163,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518164,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518166,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518167,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518168,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518169,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518170,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518172,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518173,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518174,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518175,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518176,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518177,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518178,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518179,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518180,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518181,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518182,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518183,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518184,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518185,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518186,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518187,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518188,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518189,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518190,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518191,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518192,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518193,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518194,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518195,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518196,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518197,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518198,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518199,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518200,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518201,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518202,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-6,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518203,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-6,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518411,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,1
+1787954518413,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518415,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518416,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518418,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518419,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518420,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518421,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518422,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954518424,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954518426,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518427,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518428,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518430,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518431,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518432,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954518435,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518437,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518438,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518439,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518440,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518441,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518442,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518444,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518445,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518446,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518447,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518447,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518448,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518449,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518450,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518451,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518452,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518453,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518453,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518454,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518455,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518456,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518457,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-7,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518457,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-7,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518661,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,1
+1787954518664,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518665,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518666,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518667,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518668,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518669,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518670,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518671,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518672,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518672,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954518674,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518675,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518676,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518677,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518678,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518678,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518679,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518680,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518681,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518682,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518682,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518683,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518684,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518685,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518686,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518687,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518687,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518688,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518689,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518690,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518690,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518691,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518692,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518693,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518693,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518694,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518695,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518695,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-8,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518696,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-8,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518910,4,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,4,0,2
+1787954518914,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954518916,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518918,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518919,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518920,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518921,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518921,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518922,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518923,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518924,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518925,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518926,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518927,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518927,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518928,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518929,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518930,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518930,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518931,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518932,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518933,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518934,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518935,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518936,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518937,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518938,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518939,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518940,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518940,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518941,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518942,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518943,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518944,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954518944,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518945,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518946,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954518946,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954518947,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-9,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954518948,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-9,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519161,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,1
+1787954519164,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519166,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519167,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519168,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519169,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519170,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519171,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519172,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519173,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519175,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519176,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519177,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519178,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519179,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519180,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519180,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519181,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519182,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519183,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519184,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519185,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519186,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519187,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519189,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519190,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519191,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519192,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519193,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519194,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519195,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519196,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519197,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519198,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519199,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519200,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519201,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519201,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519202,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-10,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519203,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-10,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519411,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,1
+1787954519414,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519415,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519416,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519417,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519419,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519420,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519421,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519422,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519423,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519424,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519425,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519426,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519427,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519428,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519429,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519429,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519430,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519431,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519432,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519432,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519433,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519434,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519435,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519435,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519436,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519437,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519437,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519438,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519439,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519439,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519440,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519441,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519441,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519442,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519443,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519443,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519444,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519445,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-11,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519445,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-11,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519660,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519662,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519663,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519664,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519665,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519666,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519667,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519668,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519669,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519670,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519671,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519672,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519673,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519674,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519674,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519675,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519676,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519677,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519677,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519678,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519679,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519680,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519680,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519681,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519682,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519683,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519683,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519684,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519685,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519686,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519687,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519687,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519688,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519689,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519690,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519691,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519691,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519692,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519693,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-12,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519694,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-12,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519909,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,1
+1787954519912,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519913,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519914,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519915,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519916,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519917,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519918,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519919,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519920,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519921,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519922,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519923,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519924,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954519924,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519925,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519926,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519927,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519928,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519928,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519929,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519930,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519931,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519932,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519933,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519934,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519935,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519936,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519937,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519938,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519939,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519940,5,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,5,0,0
+1787954519945,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954519947,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954519949,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954519951,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519952,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954519953,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954519954,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-13,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954519955,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-13,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520160,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,1
+1787954520171,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520172,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520173,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520174,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520174,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520175,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520176,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520177,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520177,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520178,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520178,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520179,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520180,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520181,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520182,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520183,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520184,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520186,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520187,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520188,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954520190,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520191,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520192,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520193,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520194,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520194,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520195,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520196,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520197,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520197,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520198,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520199,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520200,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520200,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520201,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520202,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520202,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520203,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-14,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520204,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-14,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520411,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,1
+1787954520413,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520414,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520415,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520416,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520417,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520418,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520418,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520419,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520420,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520420,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520421,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520422,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520423,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520423,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520424,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520424,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520425,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520426,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520427,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520427,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520428,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520429,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520429,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520430,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520431,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520431,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520432,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520433,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520434,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520434,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520435,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520436,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520437,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520438,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520438,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520439,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520440,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520441,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-15,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520441,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-15,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520661,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,1
+1787954520663,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520664,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520665,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520666,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520667,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520667,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520668,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520669,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520670,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520670,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520671,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520672,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520672,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520673,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520674,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520675,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520675,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520676,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520677,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520677,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520678,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520679,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520679,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520680,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520681,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520681,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520682,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520683,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520683,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520684,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520685,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520685,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520686,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520687,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520687,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520688,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520688,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520689,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-16,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520690,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-16,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954520912,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,1
+1787954520915,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520916,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520917,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520918,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520919,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520919,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520920,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520921,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520921,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520922,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520923,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520923,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520924,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520925,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520925,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520926,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520927,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520927,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520928,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520928,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520929,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520930,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520931,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520931,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520932,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520933,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520933,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520934,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520935,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520935,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520936,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520937,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520938,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954520939,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954520940,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520940,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520941,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954520941,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-17,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954520942,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-17,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521159,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,1
+1787954521161,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521162,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521163,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521164,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521165,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521166,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521167,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521168,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521169,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521170,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521171,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521172,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521173,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521174,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521174,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521175,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521176,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521177,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521178,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521179,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521180,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521181,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521181,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521182,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521183,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521184,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521185,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521185,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521186,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521187,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521188,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521189,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521189,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521190,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521191,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521191,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521192,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521193,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-18,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521194,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-18,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521409,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954521411,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521412,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521413,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521414,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521415,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521416,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521417,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521418,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521419,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521419,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521420,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521421,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521422,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521423,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521424,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521425,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521426,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521427,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521428,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521429,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521429,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521430,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521431,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521432,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521433,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521433,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521434,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521435,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521435,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521436,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521436,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521437,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521438,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521439,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521439,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521440,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521441,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521441,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-19,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521442,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-19,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521659,3,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,3,0,1
+1787954521662,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521663,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521664,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521664,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521665,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521666,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521666,2,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,2,0,0
+1787954521668,2,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,2,0,0
+1787954521671,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521673,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521674,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521675,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521675,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521676,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521677,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521677,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521678,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521679,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521679,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521680,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521680,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521681,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521682,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521682,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521683,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521683,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521684,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521685,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521685,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0
+1787954521686,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521687,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521687,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521688,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521688,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521689,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521689,1,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,1,0,0
+1787954521690,0,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,0,0,0
+1787954521691,0,GET Dividir - Camino Feliz,200,OK,Usuarios Concurrentes 1-20,text,true,,126,132,1,1,http://localhost:8080/dividir?a=10&b=2,0,0,0
+1787954521691,1,GET Dividir - Division por Cero,400,Bad Request,Usuarios Concurrentes 1-20,text,false,,158,132,1,1,http://localhost:8080/dividir?a=10&b=0,1,0,0

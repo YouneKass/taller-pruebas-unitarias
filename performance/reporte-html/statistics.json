@@ -1,0 +1,50 @@
+{
+  "GET Dividir - Division por Cero" : {
+    "transaction" : "GET Dividir - Division por Cero",
+    "sampleCount" : 400,
+    "errorCount" : 400,
+    "errorPct" : 100.0,
+    "meanResTime" : 0.8875000000000002,
+    "medianResTime" : 1.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 5.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 3.0,
+    "throughput" : 86.15119534783545,
+    "receivedKBytesPerSec" : 13.292860219685549,
+    "sentKBytesPerSec" : 11.105427525306913
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 800,
+    "errorCount" : 400,
+    "errorPct" : 50.0,
+    "meanResTime" : 0.9937500000000002,
+    "medianResTime" : 1.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 60.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 3.0,
+    "throughput" : 169.99575010624736,
+    "receivedKBytesPerSec" : 23.573629409264765,
+    "sentKBytesPerSec" : 21.913514662133444
+  },
+  "GET Dividir - Camino Feliz" : {
+    "transaction" : "GET Dividir - Camino Feliz",
+    "sampleCount" : 400,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1.0999999999999988,
+    "medianResTime" : 1.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 60.0,
+    "pct1ResTime" : 2.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 3.0,
+    "throughput" : 85.01594048884166,
+    "receivedKBytesPerSec" : 10.460945802337939,
+    "sentKBytesPerSec" : 10.959086078639745
+  }
+}
