@@ -155,7 +155,7 @@ $ mvn test
 [INFO] Total time:  6.282 s
 ```
 
-### Ejecución en CI (GitHub Actions)
+### Ejecución en CI (gitHub actions)
 
 El pipeline se ejecutó exitosamente sobre `main` tras fusionar el fix de indentación del
 workflow (run *"Merge pull request #3 from YouneKass/fix/pipeline-yaml-indentacion" #4*),
