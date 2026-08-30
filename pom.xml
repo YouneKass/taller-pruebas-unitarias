@@ -9,7 +9,6 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>taller-pruebas-unitarias</name>
-  <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
@@ -36,7 +35,7 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Cucumber: integracion con JUnit Platform (para correr con Surefire) -->
+    <!-- Cucumber: integracion con JUnit platform (para correr con Surefire) -->
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-junit-platform-engine</artifactId>
@@ -54,6 +53,18 @@
   </dependencies>
 
   <build>
+    <plugins>
+      <!-- Permite levantar ApiServer con "mvn exec:java" para las pruebas de performance -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <mainClass>cl.iplacex.automatizacion.ApiServer</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
