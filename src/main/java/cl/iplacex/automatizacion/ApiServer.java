@@ -7,27 +7,88 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.URI;
+import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
  * Servidor HTTP minimo para exponer la funcionalidad de division
- * y poder ejecutar pruebas de performance con JMeter.
- * No usa frameworks externos (solo la libreria estandar de Java).
+ * (usado para pruebas de performance con JMeter y pruebas de
+ * integracion/UI con Selenium). No usa frameworks externos.
  */
 public class ApiServer {
 
   private static final Calculadora calculadora = new Calculadora();
 
+  private static final String PAGINA_HTML = """
+      <!DOCTYPE html>
+      <html lang="es">
+      <head>
+        <meta charset="UTF-8">
+        <title>Calculadora - Division</title>
+      </head>
+      <body>
+        <h1>Calculadora de Division</h1>
+        <form id="formDivision">
+          <label for="a">Dividendo (a):</label>
+          <input type="number" id="a" name="a" step="any" required>
+          <br><br>
+          <label for="b">Divisor (b):</label>
+          <input type="number" id="b" name="b" step="any" required>
+          <br><br>
+          <button type="submit" id="btnDividir">Dividir</button>
+        </form>
+        <p id="resultado"></p>
+
+        <script>
+          document.getElementById('formDivision').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const a = document.getElementById('a').value;
+            const b = document.getElementById('b').value;
+            const resultadoEl = document.getElementById('resultado');
+            try {
+              const resp = await fetch(`/dividir?a=${a}&b=${b}`);
+              const data = await resp.json();
+              if (resp.ok) {
+                resultadoEl.textContent = 'Resultado: ' + data.resultado;
+              } else {
+                resultadoEl.textContent = 'Error: ' + data.error;
+              }
+            } catch (err) {
+              resultadoEl.textContent = 'Error de conexion';
+            }
+          });
+        </script>
+      </body>
+      </html>
+      """;
+
+  public static HttpServer iniciar(int puerto) throws IOException {
+    HttpServer servidor = HttpServer.create(new InetSocketAddress(puerto), 0);
+    servidor.createContext("/", ApiServer::manejarIndex);
+    servidor.createContext("/dividir", ApiServer::manejarDividir);
+    servidor.setExecutor(null);
+    servidor.start();
+    return servidor;
+  }
+
   public static void main(String[] args) throws IOException {
     int puerto = 8080;
-    HttpServer servidor = HttpServer.create(new InetSocketAddress(puerto), 0);
-
-    servidor.createContext("/dividir", ApiServer::manejarDividir);
-    servidor.setExecutor(null); // usa un executor por defecto (single-threaded)
-    servidor.start();
-
+    iniciar(puerto);
     System.out.println("Servidor escuchando en http://localhost:" + puerto);
+  }
+
+  private static void manejarIndex(HttpExchange exchange) throws IOException {
+    if (!"/".equals(exchange.getRequestURI().getPath())) {
+      exchange.sendResponseHeaders(404, -1);
+      return;
+    }
+    byte[] cuerpo = PAGINA_HTML.getBytes(StandardCharsets.UTF_8);
+    exchange.getResponseHeaders().add("Content-Type", "text/html; charset=UTF-8");
+    exchange.sendResponseHeaders(200, cuerpo.length);
+    try (OutputStream os = exchange.getResponseBody()) {
+      os.write(cuerpo);
+    }
   }
 
   private static void manejarDividir(HttpExchange exchange) throws IOException {
@@ -57,9 +118,10 @@ public class ApiServer {
 
   private static void enviarRespuesta(HttpExchange exchange, int codigo, String cuerpo) throws IOException {
     exchange.getResponseHeaders().add("Content-Type", "application/json");
-    exchange.sendResponseHeaders(codigo, cuerpo.getBytes().length);
-    OutputStream os = exchange.getResponseBody();
-    os.write(cuerpo.getBytes());
-    os.close();
+    byte[] bytes = cuerpo.getBytes(StandardCharsets.UTF_8);
+    exchange.sendResponseHeaders(codigo, bytes.length);
+    try (OutputStream os = exchange.getResponseBody()) {
+      os.write(bytes);
+    }
   }
 }

@@ -21,6 +21,9 @@ jobs:
           java-version: '17'
           cache: 'maven'
 
+      - name: Instalar Google Chrome (para pruebas Selenium)
+        uses: browser-actions/setup-chrome@v1
+
       - name: Compilar y ejecutar pruebas
         run: mvn -B test
 

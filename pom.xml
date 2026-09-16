@@ -17,6 +17,8 @@
     <maven.compiler.target>17</maven.compiler.target>
     <junit.jupiter.version>5.10.2</junit.jupiter.version>
     <cucumber.version>7.18.1</cucumber.version>
+    <selenium.version>4.24.0</selenium.version>
+    <webdrivermanager.version>5.9.2</webdrivermanager.version>
   </properties>
 
   <dependencies>
@@ -48,6 +50,22 @@
       <groupId>org.junit.platform</groupId>
       <artifactId>junit-platform-suite</artifactId>
       <version>1.10.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Selenium: automatizacion de pruebas de interfaz web -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${selenium.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- WebDriverManager: descarga y configura automaticamente el driver de Chrome -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>${webdrivermanager.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
